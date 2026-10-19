@@ -1,150 +1,212 @@
+
 <!DOCTYPE html>
-<!-- Primeira linha obrigatória: informa ao navegador que é HTML5 -->
 <html lang="pt-br">
-<!-- lang define o idioma: importante para acessibilidade e SEO -->
 
 <head>
-    <!-- O head guarda configurações que NÃO aparecem na página -->
     <meta charset="UTF-8">
-    <!-- charset garante que acentos (ç, ã, é) apareçam corretamente -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- viewport: faz a página se adaptar ao celular (responsividade) -->
-    <title>GreenNest — Plantas para sua casa</title>
-    <!-- title: é o texto que aparece na ABA do navegador -->
+
+    <title>MotoZone — Paixão por duas rodas</title>
+
     <link rel="stylesheet" href="estilo.css">
-    <!-- AQUI o HTML aponta para o arquivo de estilo separado -->
-</head>
+</head>0
 
 <body>
-    <!-- O body guarda TODO o conteúdo visível da página -->
 
-    <!-- ============ HEADER ============ -->
-    <!-- Cabeçalho: logo + menu de navegação -->
+    <!-- HEADER -->
     <header>
-        <h1 class="logo">🌿 GreenNest</h1>
+        <h1 class="logo">🏍️ MotoZone</h1>
+
         <nav>
-            <!-- nav: agrupa os links de navegação do site -->
             <a href="#hero">Início</a>
-            <a href="#produtos">Plantas</a>
+            <a href="#motos">Motos</a>
             <a href="#depoimentos">Depoimentos</a>
             <a href="#faq">Dúvidas</a>
         </nav>
     </header>
 
-    <!-- ============ HERO SECTION ============ -->
-    <!-- A primeira impressão: o que aparece sem rolar a página -->
+    <!-- APRESENTAÇÃO -->
     <section id="hero" class="hero">
+
         <div class="hero-texto">
-            <h2>Traga a natureza para dentro de casa</h2>
-            <!-- h2 aqui, porque o h1 já foi usado no logo -->
-            <p>Plantas selecionadas para cada canto da sua casa.
-               Entrega rápida e garantia de vida por 30 dias.</p>
-            <!-- CTA: Call to Action — o botão que converte -->
-            <a href="#produtos" class="botao-cta">Ver plantas</a>
+            <h2>Sinta a liberdade de estar sobre duas rodas</h2>
+
+            <p>
+                Encontre a moto ideal para sua próxima aventura.
+                Modelos incríveis, desempenho e estilo para todos os caminhos.
+            </p>
+
+            <a href="#motos" class="botao-cta">Ver motos</a>
         </div>
-        <img src="https://placehold.co/400x400/10B981/fff?text=🪴"
-             alt="Vaso de planta decorativa em ambiente interno">
-        <!-- alt é OBRIGATÓRIO: descreve a imagem para leitores de tela -->
+
+        <img
+            src="Emblema MotoZone_ Motos e Fotografia.png"
+            alt="Imagem ilustrativa de uma motocicleta">
     </section>
 
-    <!-- ============ SHOWCASE DE PRODUTOS ============ -->
-    <!-- Vitrine: grid de cards com os produtos -->
-    <section id="produtos" class="produtos">
-        <h2>Nossas plantas</h2>
-        <ul class="grade-produtos">
-            <!-- ul + li: lista semântica para os cards -->
+    <!-- VITRINE DE MOTOS -->
+    <section id="motos" class="motos">
+
+        <h2>Nossas motos</h2>
+
+        <ul class="grade-motos">
+
+            <!-- MOTO 1 -->
             <li class="card">
-                <img src="https://placehold.co/300x200/7C3AED/fff?text=Samambaia"
-                     alt="Samambaia em vaso suspenso">
-                <h3>Samambaia</h3>
-                <p>Perfeita para ambientes úmidos.</p>
-                <span class="preco">R$ 39,90</span>
+                <img
+                    src="CB_500F_2024.png"
+                    alt="Honda CB 500F">
+
+                <h3>Honda CB 500F</h3>
+
+                <p>Estilo naked, conforto e desempenho para o dia a dia.</p>
+
+                <span class="preco">R$ 42.000,00</span>
             </li>
+
+            <!-- MOTO 2 -->
             <li class="card">
-                <img src="https://placehold.co/300x200/00D4FF/000?text=Suculenta"
-                     alt="Suculenta em vaso pequeno de cerâmica">
-                <h3>Suculenta</h3>
-                <p>Pouca água, muita beleza.</p>
-                <span class="preco">R$ 19,90</span>
+                <img
+                    src="images__3_-removebg-preview.png"
+                    alt="Yamaha MT-07">
+
+                <h3>Yamaha MT-07</h3>
+
+                <p>Design agressivo e potência para quem gosta de emoção.</p>
+
+                <span class="preco">R$ 48.000,00</span>
             </li>
+
+            <!-- MOTO 3 -->
             <li class="card">
-                <img src="https://placehold.co/300x200/EC4899/fff?text=Costela"
-                     alt="Costela de adão em vaso branco">
-                <h3>Costela de Adão</h3>
-                <p>A queridinha das decorações.</p>
-                <span class="preco">R$ 59,90</span>
+                <img
+                    src="kawasaki.png.png"
+                    alt="Kawasaki Ninja 400">
+
+                <h3>Kawasaki Ninja 400</h3>
+
+                <p>Visual esportivo e excelente experiência na estrada.</p>
+
+                <span class="preco">R$ 36.000,00</span>
             </li>
+
+            <!-- MOTO 4 -->
             <li class="card">
-                <img src="https://placehold.co/300x200/10B981/fff?text=Jiboia"
-                     alt="Jiboia pendurada em suporte de parede">
-                <h3>Jiboia</h3>
-                <p>Cresce até em cantos escuros.</p>
-                <span class="preco">R$ 29,90</span>
+                <img
+                    src="BMW.png.png"
+                    alt="BMW S 1000 RR">
+
+                <h3>BMW S 1000 RR</h3>
+
+                <p>Uma superesportiva para quem busca alto desempenho.</p>
+
+                <span class="preco">R$ 135.000,00</span>
             </li>
+
         </ul>
     </section>
 
-    <!-- ============ PROVA SOCIAL ============ -->
-    <!-- Depoimentos: pessoas confiam em pessoas -->
+    <!-- DEPOIMENTOS -->
     <section id="depoimentos" class="depoimentos">
-        <h2>Quem comprou, recomenda</h2>
+
+        <h2>Quem conhece, recomenda</h2>
+
         <div class="grade-depoimentos">
+
             <figure class="depoimento">
-                <!-- figure: marca um conteúdo ilustrativo independente -->
-                <img src="https://placehold.co/80x80/7C3AED/fff?text=A"
-                     alt="Foto de perfil da cliente Ana">
-                <blockquote>"Minha casa ficou outro clima!"</blockquote>
-                <figcaption>Ana, Chapecó</figcaption>
-                <!-- figcaption: legenda da figure -->
+                <img
+                    src="photo-andre.avif"
+                    alt="Perfil do cliente André">
+
+                <blockquote>
+                    "Encontrei a moto que sempre quis!"
+                </blockquote>
+
+                <figcaption>André, Chapecó</figcaption>
             </figure>
+
             <figure class="depoimento">
-                <img src="https://placehold.co/80x80/00D4FF/000?text=B"
-                     alt="Foto de perfil do cliente Bruno">
-                <blockquote>"Chegou super bem embalada."</blockquote>
-                <figcaption>Bruno, Xaxim</figcaption>
+                <img
+                    src="photo-mariana.avif"
+                    alt="Perfil da cliente Mariana">
+
+                <blockquote>
+                    "Atendimento excelente e muita qualidade."
+                </blockquote>
+
+                <figcaption>Mariana, Xaxim</figcaption>
             </figure>
+
             <figure class="depoimento">
-                <img src="https://placehold.co/80x80/10B981/fff?text=C"
-                     alt="Foto de perfil da cliente Carla">
-                <blockquote>"Atendimento nota 10!"</blockquote>
-                <figcaption>Carla, Chapecó</figcaption>
+                <img
+                    src="photo-rafael.avif"
+                    alt="Perfil do cliente Rafael">
+
+                <blockquote>
+                    "Ótimas opções para quem ama motocicletas."
+                </blockquote>
+
+                <figcaption>Rafael, Chapecó</figcaption>
             </figure>
+
         </div>
     </section>
 
-    <!-- ============ FAQ ============ -->
-    <!-- Acordeão NATIVO: details + summary, sem JavaScript! -->
+    <!-- DÚVIDAS FREQUENTES -->
     <section id="faq" class="faq">
+
         <h2>Dúvidas frequentes</h2>
 
         <details>
-            <summary>Vocês entregam em toda a cidade?</summary>
-            <p>Sim! Entregamos em Chapecó e região em até 2 dias úteis.</p>
+            <summary>Quais tipos de motos vocês oferecem?</summary>
+            <p>
+                Trabalhamos com modelos esportivos, naked e motos
+                para uso urbano e viagens.
+            </p>
         </details>
 
         <details>
-            <summary>E se a planta morrer?</summary>
-            <p>Temos 30 dias de garantia de vida. Trocamos sem custo.</p>
+            <summary>Posso conhecer a moto antes de comprar?</summary>
+            <p>
+                Entre em contato para consultar a disponibilidade
+                e agendar uma visita.
+            </p>
         </details>
 
         <details>
-            <summary>Como escolho a planta ideal?</summary>
-            <p>Chame no WhatsApp: indicamos conforme a luz do seu ambiente.</p>
+            <summary>Como posso saber mais sobre uma moto?</summary>
+            <p>
+                Consulte as especificações, os preços e as condições
+                de cada modelo com nossa equipe.
+            </p>
         </details>
+
     </section>
 
-    <!-- ============ FOOTER + NEWSLETTER ============ -->
-    <!-- Rodapé: fecha a navegação com formulário de e-mail -->
+    <!-- RODAPÉ E NEWSLETTER -->
     <footer>
+
         <form class="newsletter">
-            <label for="email">Receba dicas de cuidado com plantas:</label>
-            <!-- label com for ligado ao id do input: acessibilidade -->
-            <input type="email" id="email" name="email"
-                   placeholder="seu@email.com" required>
-            <!-- type="email" valida o formato sozinho no navegador -->
+
+            <label for="email">
+                Receba novidades sobre motos:
+            </label>
+
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="seu@email.com"
+                required>
+
             <button type="submit">Cadastrar</button>
+
         </form>
-        <p class="copyright">© 2026 — GreenNest • Desenvolvido pela turma de Web Design</p>
+
+        <p class="copyright">
+            © 2026 — MotoZone • Desenvolvido pela turma de Web Design
+        </p>
+
     </footer>
 
 </body>
