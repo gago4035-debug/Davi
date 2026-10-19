@@ -1,17 +1,15 @@
-# 🌿 GreenNest — Landing Page
+# 🏍️ MotoZone — Landing Page
 
-Landing page desenvolvida como exemplo didático para a disciplina de
-**Desenvolvimento de Sistemas** (Web Design) — IFSC Câmpus Chapecó.
+Landing page desenvolvida como exemplo didático para a disciplina de Desenvolvimento de Sistemas (Web Design).
 
-O projeto demonstra a **anatomia de uma landing page** construída apenas
-com HTML5 e CSS3, sem frameworks e sem JavaScript.
+O projeto demonstra a estrutura de uma landing page construída utilizando HTML5 e CSS3, sem frameworks e sem JavaScript.
 
 ## 🚀 Demonstração
 
-O site está publicado no GitHub Pages:
-**[https://laraoberderfer.github.io/landingpage_greennest/](https://laraoberderfer.github.io/landingpage_greennest/)**
+O site apresenta modelos de motocicletas, depoimentos de clientes e dúvidas frequentes.
 
 ## 📁 Estrutura do projeto
--- index.html
--- estilo.css
--- readme.md
+
+- index.html
+- estilo.css
+- README.md
